@@ -313,6 +313,7 @@ export class MinaLedgerJS {
       return {
         version,
         returnCode,
+        deviceLocked: response[4] === 1
       };
     } catch (e) {
       return {

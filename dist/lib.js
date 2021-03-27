@@ -308,6 +308,7 @@ var MinaLedgerJS = /** @class */ (function () {
                         return [2 /*return*/, {
                                 version: version,
                                 returnCode: returnCode,
+                                deviceLocked: response[4] === 1
                             }];
                     case 2:
                         e_3 = _b.sent();

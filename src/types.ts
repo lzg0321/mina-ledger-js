@@ -56,7 +56,7 @@ export interface SignTransactionResponse extends BaseLedgerResponse {
 }
 export interface GetAppVersionResponse extends BaseLedgerResponse {
   version?: string;
-
+  deviceLocked?: boolean;
 }export interface GetAppNameResponse extends BaseLedgerResponse {
   name?: string;
   version?: string;
